@@ -1,4 +1,4 @@
-package com.example.springjwt.dto;
+package com.example.springjwt.common.model.dto;
 
 import com.example.springjwt.entity.UserEntity;
 import org.springframework.security.core.GrantedAuthority;

@@ -1,8 +1,9 @@
-package com.example.springjwt.jwt;
+package com.example.springjwt.common.auth;
 
-import com.example.springjwt.dto.CustomUserDetails;
-import com.example.springjwt.entity.RefreshEntity;
-import com.example.springjwt.repository.RefreshRepository;
+import com.example.springjwt.common.model.dto.CustomUserDetails;
+import com.example.springjwt.common.model.entity.RefreshEntity;
+import com.example.springjwt.common.util.JWTUtil;
+import com.example.springjwt.common.model.repository.RefreshRepository;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.http.Cookie;

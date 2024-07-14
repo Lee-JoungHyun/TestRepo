@@ -1,20 +1,17 @@
 package com.example.springjwt.controller;
 
-import com.example.springjwt.jwt.JWTUtil;
-import com.example.springjwt.repository.RefreshRepository;
+import com.example.springjwt.common.util.JWTUtil;
+import com.example.springjwt.common.model.repository.RefreshRepository;
 import io.jsonwebtoken.ExpiredJwtException;
 import jakarta.servlet.http.Cookie;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.http.HttpRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.net.http.HttpResponse;
 
 @RestController
 @Slf4j

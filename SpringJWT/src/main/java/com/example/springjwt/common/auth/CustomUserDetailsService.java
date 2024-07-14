@@ -1,6 +1,6 @@
-package com.example.springjwt.service;
+package com.example.springjwt.common.auth;
 
-import com.example.springjwt.dto.CustomUserDetails;
+import com.example.springjwt.common.model.dto.CustomUserDetails;
 import com.example.springjwt.entity.UserEntity;
 import com.example.springjwt.repository.UserRepository;
 import lombok.extern.slf4j.Slf4j;

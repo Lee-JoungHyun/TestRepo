@@ -1,6 +1,6 @@
-package com.example.springjwt.repository;
+package com.example.springjwt.common.model.repository;
 
-import com.example.springjwt.entity.RefreshEntity;
+import com.example.springjwt.common.model.entity.RefreshEntity;
 import jakarta.transaction.Transactional;
 import org.springframework.data.jpa.repository.JpaRepository;
 

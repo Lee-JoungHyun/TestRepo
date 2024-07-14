@@ -1,7 +1,8 @@
-package com.example.springjwt.jwt;
+package com.example.springjwt.common.auth;
 
-import com.example.springjwt.dto.CustomUserDetails;
+import com.example.springjwt.common.model.dto.CustomUserDetails;
 import com.example.springjwt.entity.UserEntity;
+import com.example.springjwt.common.util.JWTUtil;
 import jakarta.servlet.FilterChain;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
